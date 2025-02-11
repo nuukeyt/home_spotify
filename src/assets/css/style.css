@@ -393,6 +393,7 @@ body {
     height: 112px;
     background-color: #181818;
     flex-direction: row;
+    width: 100vh;
 }
 
 .midia--player--esquerdo {
