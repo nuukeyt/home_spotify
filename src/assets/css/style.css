@@ -1,0 +1,509 @@
+@font-face {
+    font-family:'Circular Std Black';
+    src: url('../fonts/CircularStd-Black.ttf');
+}
+
+@font-face {
+    font-family:'Circular Std Bold';
+    src: url('../fonts/CircularStd-Bold.ttf');
+}
+
+@font-face {
+    font-family:'Circular Std Book';
+    src: url('../fonts/CircularStd-Book.ttf');
+}
+
+@font-face {
+    font-family:'Circular Std Medium';
+    src: url('../fonts/CircularStd-Medium.ttf');
+}
+
+body {
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+.pagina {
+    display: flex;
+    height: 100%;
+}
+
+.texto--cinza {
+    color: #B3B3B3;
+}
+
+.texto--branco {
+    color: #FFFFFF;
+}
+
+.componente--see--all {
+    color: #adadad;
+    font-size: 16px;
+    font-family: 'Circular Std Book';
+    font-weight: 450;
+    letter-spacing: 0.08em;
+    
+}
+
+.fundo--preto {
+    background-color: #000000;
+}
+
+.fundo--degrade {
+    background: linear-gradient(180deg, #3333A3 0%, #3333A3 7%, #121212 16.5%);
+}
+
+.texto--categoria {
+    font-family: 'CircularStd-Bold';
+    font-size: 30px;
+}
+
+.icon--menu {
+    width: 32px;
+    height: 32px;
+}
+
+.componente--item--menu {
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Circular Std Bold';
+}
+
+.componente--item--secundario--menu {
+    font-size: 18px;
+    font-family: 'Circular Std Black';
+}
+
+.parte--esquerda {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+.conjunto--item--menu {
+    display: flex;
+    height: 32px;
+    gap: 20px;
+}
+
+.top--40 {
+    margin-top: 40px;
+}
+
+.separator {
+    height: 0.5px;
+    width: 100%;
+    background: #282828;
+}
+
+.corpo--play--it--safe {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -30px;
+    margin-left: -30px;
+    transform: translateX(5px)
+}
+
+.play--it--safe {
+    width: 384px;
+    height: 384px;
+    background-color: #adadad;
+    
+    
+}
+
+.parte--meio {
+    display: flex;
+    flex: 3.5;
+    flex-direction: column;
+}
+
+.topo {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.topo--esquerdo{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 41px;
+    gap: 23px;
+}
+
+.topo--direito {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 41px;
+
+}
+
+.componente--topo--direito {
+    display: flex;
+    width: 189px;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #121212;
+    border-radius: 40px;
+    gap: 13px;
+}
+
+.topo--icon {
+    width: 40px;
+    height: 40px;
+}
+
+.nome--perfil {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Circular Std Book';
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+}
+
+.titulo--parte--meio {
+    font-family: 'Circular Std Bold';
+    color: #FFFFFF;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-left: 41px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.parte--meio--chill {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.parte--meio--esquerda {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    margin-left: 41px;
+}
+
+.parte--meio--direita {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 41px;
+
+}
+
+.item--chill--mix {
+    display: flex;
+    align-items: center;
+    height: 82px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+
+
+.img--chill--mix {
+    width: 82px;
+    height: 82px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;  
+}
+
+.nome--playlist {
+    margin-left: 20px;
+    font-family: 'Circular Std Bold';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+.your--top--mixes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.topo--top--mixes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto--top--mixes {
+    font-family: 'Circular Std Bold';
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+.corpo--top--mixes {
+    display: flex;
+    gap: 30px;
+    margin-top: 47px;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.playlist--top--mixes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+    width: 224px;
+    height: 324px;
+}
+
+.capa--album {
+    margin-top: 20px;
+    width: 182px;
+    height: 182px;
+}
+
+.nome--album {
+    margin-top: 30px;
+    font-family: 'Circular Std Book';
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    width: 182px;
+    height: 25px;
+
+}
+
+.artista--album {
+    font-family: 'Circular Std Book';
+    margin-top: 10px;
+    width: 182px;
+    height: 46px;
+    font-weight: 250;
+    font-size: 18px;
+}
+
+.espaco--final {
+    height: 133px;
+}
+
+.parte--direita {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.componente--item--menu--direita{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.componente--texto--primario--direita {
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    height: 25px;
+    font-family: 'Circular Std Bold';
+    width: 141px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    gap: 30px;
+}
+
+.icon--close {
+    height: 56px;
+    width: 56px;
+}
+
+.texto--parte--direita {
+    padding-top: 20px;
+    width: 306px;
+    padding-bottom: 15px;
+}
+
+.menu--friend--list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.friend--list {
+    width: 179px;
+    height: 62px;
+    
+} 
+
+.componente--botao {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao--parte--direita{
+    display: flex;
+    flex-direction: row;
+    width: 233px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto--botao {
+    font-family: 'Circular Std Black';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.14em;
+    color: #171717;    
+}
+
+.container--midia--player {
+    display: flex;
+    height: 112px;
+    background-color: #181818;
+    flex-direction: row;
+}
+
+.midia--player--esquerdo {
+    display: flex;
+    flex: 1;
+    padding-left: 30px;
+    padding-right:30px;
+    align-items: center;
+    gap: 40px;
+}
+
+.musica--midia {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.texto--musica {
+    font-family: 'Circular Std Bold';
+    height: 23px;
+    font-weight: 450;
+    font-size: 18px;
+}
+
+.texto--artista {
+    font-family: 'Circular Std Book';
+    font-size: 16px;
+    letter-spacing: -0.05em;
+    align-items: center;
+    font-weight: 450;
+    height: 20px;
+}
+
+.green--heart {
+    height: 28px;
+    width: 28px;
+}
+
+.midia--player--meio {
+    display: flex;
+    flex-direction: column;
+    flex: 3.5;
+}
+
+.meio--cima {
+    margin-top: 10px;
+    display: flex;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.icon--midia--player--1 {
+    height: 32px;
+    width: 32px;
+}
+
+.icon--midia--player--2 {
+    height: 48px;
+    width: 48px;
+}
+.meio--baixo {
+    display: flex;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.linha--reproducao--1 {
+    margin-left: 15px;
+    width: 335px;
+    height: 5px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    
+}
+
+.linha--reproducao--2 {
+    margin-right: 15px;
+    width: 217px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.tempo--reproducao {
+    font-family: 'Circular Std Book';
+    font-size: 16px;
+    font-weight: 50;
+    width: 32px;
+    height: 20px;
+    color: #A6A6A6;
+}
+
+.midia--player--direito {
+    display: flex;
+    flex: 1;
+    padding-left: 30px;
+    padding-right:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu--player--direito {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
